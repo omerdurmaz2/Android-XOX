@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">XOX</string>
+    <string name="oBaslik"><u>O</u></string>
+    <string name="xBaslik"><u>x</u></string>
+</resources>

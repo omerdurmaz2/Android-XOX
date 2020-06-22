@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="30dp"
+    android:gravity="center"
+    tools:context=".tarafsec"
+    android:background="@drawable/taraf_table_back">
+    <Button
+        android:id="@+id/tarafx"
+        android:textSize="60dp"
+
+        android:background="@drawable/button_back"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+
+        android:text="X"></Button>
+    <Button
+        android:textSize="60dp"
+        android:id="@+id/tarafo"
+        android:background="@drawable/button_back"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="o"
+        android:layout_toRightOf="@+id/tarafx"
+        android:layout_marginLeft="40dp"></Button>
+</RelativeLayout>
